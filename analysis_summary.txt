@@ -1,0 +1,16 @@
+Analysis Date: 2025-08-29T15:27:39.384529
+Total Respondents: 5,521
+Total Variables: 28
+
+Transgender Questions:
+  Total questions: 9
+  Questions with data: 9
+  Highest response rate: trans_sports_prepost (98.4%)
+  Lowest response rate: trans_sports_post (3.6%)
+
+Gay/LGB Questions:
+  Total questions: 7
+  Questions with data: 7
+  Highest response rate: gay_id (94.3%)
+  Lowest response rate: gay_marriage (47.3%)
+
