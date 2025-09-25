@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-from dicts import var_dict, ans_dict
-from weights import weights_dict
+from aneslgbtq.data.dicts import var_dict, ans_dict
+from aneslgbtq.data.weights import weights_dict
 
 def anes_lgbt_fixed(input_file='anes_2024.csv', output_file='lgbt_anes.csv'):
     print(f"Loading data from {input_file}...")
@@ -184,7 +184,7 @@ def validate_weights(df, original_df, weights_dict):
                     break
         
         if not found_source and pd.notna(assigned_weight):
-            print(f"  ⚠️  Could not identify source for assigned weight")
+            print(f"Could not identify source for assigned weight")
 
 if __name__ == "__main__":
     print("ANES 2024 LGBTQ Data Analysis")

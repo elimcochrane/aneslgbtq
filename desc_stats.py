@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from samplics.estimation import TaylorEstimator
 from samplics.utils.types import PopParam
-from dicts import var_dict, ans_dict, theme_dict
+from aneslgbtq.data.dicts import var_dict, ans_dict, theme_dict
 
 value_meanings = ans_dict
 trans_questions = list(theme_dict['trans_qs'])

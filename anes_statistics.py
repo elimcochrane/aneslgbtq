@@ -1,8 +1,3 @@
-"""
-ANES LGBTQ+ Survey Statistics Functions
-Contains statistical analysis functions for ANES survey data
-"""
-
 import pandas as pd
 import numpy as np
 from samplics.estimation import TaylorEstimator
